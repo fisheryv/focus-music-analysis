@@ -1,0 +1,9 @@
+spotipy
+pandas
+seaborn
+matplotlib
+scikit-learn
+numpy
+scipy
+xgboost
+essentia-tensorflow
