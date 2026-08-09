@@ -1,6 +1,6 @@
 # 改善注意力缺陷的功能性音乐特征分析
 
-本项目针对注意力缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder, ADHD）人群，从音频特征工程的角度出发，研究"专注音乐（Focus Music）"与古典音乐、流行音乐之间的差异，并基于研究结论，使用 AI 音乐生成模型（Suno、ACE-Step）生成符合 ADHD 用户需求的功能性音乐。项目同时包含围绕该研究的产品化探索——「希音（Healing）」专注 App 的产品需求文档。
+本项目针对注意力缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder, ADHD）人群，从音频特征工程的角度出发，研究"专注音乐（Focus Music）"与古典音乐、流行音乐之间的差异，并基于研究结论，使用 AI 音乐生成模型（Suno、ACE-Step）生成符合 ADHD 用户需求的功能性音乐。
 
 ## 项目背景
 
