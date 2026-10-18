@@ -8,8 +8,8 @@ ADHD 是一种全球高发的神经发育障碍，其核心症状包括持续性
 
 本项目希望回答两个问题：
 
-1. **专注音乐到底"长什么样"？** 通过对 Spotify 上 Focus Music、Classical Music、Pop Music 三类音乐的高级音频特征进行统计分析，提取专注音乐的关键特征指纹。
-2. **AI 能否生成合格的专注音乐？** 基于上述特征指纹构建提示词，对比 Suno 与 ACE-Step 两类音乐生成模型在不同提示词策略下的生成效果。
+1. **专注音乐到底"长什么样"？** 通过对 Spotify 上 Focus Music、Classical Music、Pop Music 三类音乐的高级音频特征进行统计分析，提取专注音乐的关键特征指纹。报告详见 [https://fisheryv.github.io/focus-music-analysis/focus-music-analysis/audio_feature_analysis.html](https://fisheryv.github.io/focus-music-analysis/audio_feature_analysis.html)
+2. **AI 能否生成合格的专注音乐？** 基于上述特征指纹构建提示词，对比 Suno 与 ACE-Step 两类音乐生成模型在不同提示词策略下的生成效果。报告详见 [https://fisheryv.github.io/focus-music-analysis/healing_music_generation.html](https://fisheryv.github.io/focus-music-analysis/healing_music_generation.html)
 
 ## 目录结构
 
@@ -29,8 +29,8 @@ ADHD-music-analysis/
 ├── stems/                              # 分轨素材（用于"有鼓 vs 无鼓"对比实验）
 ├── audio_feature_analysis.ipynb        # Spotify 音频特征统计分析
 ├── audio_feature_analysis.html         # 音频特征统计分析报告 HTML 版本
-├── healing_nusic_generation.ipynb      # AI 疗愈音频生成体验报告
-├── healing_nusic_generation.html       # AI 疗愈音频生成体验报告 HTML 版本
+├── healing_music_generation.ipynb      # AI 疗愈音频生成体验报告
+├── healing_music_generation.html       # AI 疗愈音频生成体验报告 HTML 版本
 ├── audio_features.py                   # 基于 Essentia 的本地音频特征提取
 ├── audio_features_old.py               # 旧版特征提取实现（PyAV）
 ├── spotify_data_retrieve.py            # Spotify + RapidAPI 音频特征抓取脚本
@@ -65,7 +65,7 @@ ADHD-music-analysis/
 
 ### 二、AI 疗愈音频生成体验
 
-[healing_nusic_generation.ipynb](healing_nusic_generation.ipynb) 基于上述特征指纹，分别使用 **Suno v5.5 Pro**（商业 SOTA）和 **ACE-Step V1.5 XL Turbo**（开源 SOTA）生成 Focus Music，并从指标性提示词到语义性提示词、从 Simple 模式到 Advanced 模式做了多轮对照实验，最终通过 [plot.py](plot.py) 输出可视化对比图（见 `img/compare0X.png`）。
+[healing_music_generation.ipynb](healing_music_generation.ipynb) 基于上述特征指纹，分别使用 **Suno v5.5 Pro**（商业 SOTA）和 **ACE-Step V1.5 XL Turbo**（开源 SOTA）生成 Focus Music，并从指标性提示词到语义性提示词、从 Simple 模式到 Advanced 模式做了多轮对照实验，最终通过 [plot.py](plot.py) 输出可视化对比图（见 `img/compare0X.png`）。
 
 ## 核心脚本说明
 
